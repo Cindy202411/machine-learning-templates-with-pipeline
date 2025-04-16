@@ -1,0 +1,10 @@
+data:
+  path: "data.db"
+  table: "customer_data"
+  target: "Target_Churn"
+
+model:
+  name: "RandomForest"
+  params:
+    n_estimators: 100
+    max_depth: 5
